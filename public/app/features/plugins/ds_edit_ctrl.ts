@@ -8,7 +8,7 @@ var datasourceTypes = [];
 
 var defaults = {
   name: '',
-  type: 'graphite',
+  type: 'influxdb',
   url: '',
   access: 'proxy',
   jsonData: {},
