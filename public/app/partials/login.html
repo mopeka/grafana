@@ -1,8 +1,9 @@
 <div class="login container">
   <div class="login-content">
     <div class="login-branding">
-      <img class="logo-icon" src="public/img/grafana_icon.svg" alt="Grafana" />
-      <i class="icon-gf icon-gf-grafana_wordmark"></i>
+      <img class="logo-icon" src="public/img/grafana_icon.svg" alt="Mopeka" />
+      <!--<i class="icon-gf icon-gf-grafana_wordmark"></i>-->
+      <h4>&nbsp;TankCheck</h4>
     </div>
     <div class="login-inner-box">
       <form name="loginForm" class="login-form-group gf-form-group" ng-hide="disableLoginForm">
@@ -50,10 +51,10 @@
           <i class="btn-service-icon fa fa-github"></i>
           Sign in with GitHub
         </a>
-        <a class="btn btn-medium btn-inverse btn-service btn-service--grafanacom login-btn" href="login/grafana_com" target="_self" ng-if="oauth.grafana_com">
+        <!--<a class="btn btn-medium btn-inverse btn-service btn-service--grafanacom login-btn" href="login/grafana_com" target="_self" ng-if="oauth.grafana_com">
           <i class="btn-service-icon"></i>
           Sign in with Grafana.com
-        </a>
+        </a>-->
         <a class="btn btn-medium btn-inverse btn-service btn-service--oauth login-btn" href="login/generic_oauth" target="_self" ng-if="oauth.generic_oauth">
           <i class="btn-service-icon fa fa-sign-in"></i>
           Sign in with {{oauth.generic_oauth.name}}
@@ -61,7 +62,7 @@
       </div>
       <div class="login-signup-box" ng-show="!disableUserSignUp">
         <div class="login-signup-title p-r-1">
-          New to Grafana?
+          New to TankCheck?
         </div>
         <a href="signup" class="btn btn-medium btn-signup btn-p-x-2">
           Sign Up

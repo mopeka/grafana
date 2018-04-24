@@ -16,7 +16,7 @@ class GettingStartedPanelCtrl extends PanelCtrl {
     this.steps = [];
 
     this.steps.push({
-      title: 'Install Grafana',
+      title: 'Install TankCheck',
       icon: 'icon-gf icon-gf-check',
       href: 'http://docs.grafana.org/',
       target: '_blank',
@@ -62,7 +62,7 @@ class GettingStartedPanelCtrl extends PanelCtrl {
       },
     });
 
-    this.steps.push({
+    /*this.steps.push({
       title: 'Install apps & plugins',
       cta: 'Explore plugin repository',
       icon: 'icon-gf icon-gf-apps',
@@ -72,7 +72,7 @@ class GettingStartedPanelCtrl extends PanelCtrl {
           return plugins.length > 0;
         });
       },
-    });
+    });*/
   }
 
   $onInit() {

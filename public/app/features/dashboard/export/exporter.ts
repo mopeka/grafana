@@ -107,7 +107,7 @@ export class DashboardExporter {
     requires['grafana'] = {
       type: 'grafana',
       id: 'grafana',
-      name: 'Grafana',
+      name: 'TankCheck',
       version: config.buildInfo.version,
     };
 

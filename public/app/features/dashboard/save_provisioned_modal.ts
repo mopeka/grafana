@@ -16,7 +16,7 @@ const template = `
 
   <div class="modal-content">
     <small>
-      This dashboard cannot be saved from Grafana's UI since it has been provisioned from another source.
+      This dashboard cannot be saved from TankCheck's UI since it has been provisioned from another source.
       Copy the JSON or save it to a file below. Then you can update your dashboard in corresponding provisioning source.<br/>
       <i>See <a class="external-link" href="http://docs.grafana.org/administration/provisioning/#dashboards" target="_blank">
       documentation</a> for more information about provisioning.</i>

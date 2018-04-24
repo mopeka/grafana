@@ -19,7 +19,7 @@ export class ConfigCtrl {
 
       if (!found) {
         var dsInstance = {
-          name: 'Grafana TestData',
+          name: 'TankCheck TestData',
           type: 'grafana-testdata-datasource',
           access: 'direct',
           jsonData: {},
